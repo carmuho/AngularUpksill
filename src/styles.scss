@@ -1,0 +1,199 @@
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+    margin: 0;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 1.6rem;
+}
+.page-title{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+    h2 {
+        margin: 0;
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .title-helper{ 
+        display: inline-block;
+        position: relative;
+        padding: 8px 16px;
+        font-size: 18px;
+        color: coral;
+        &:before {
+            position: absolute;
+            top: 0;
+            display: block;
+            width: 12px;
+            height: 34px;
+            content: " ";
+            border: 2px solid coral;
+        }
+    }
+    .title-helper:after {
+        right: 0;
+        border-left: none !important;
+    }
+}
+.page-title .title-helper:after, .page-title .title-helper:before {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 12px;
+    height: 34px;
+    content: " ";
+    border: 2px solid coral;
+}
+.page-title .title-helper:before {
+    left: 0;
+    border-right: none !important;
+}
+
+::after,::before {
+    box-sizing:border-box
+
+}
+
+.mat-focus-indicator.mat-fab {
+    position: fixed;
+    top: 145px;
+    right: 20px;
+    z-index: 1;
+    &.mat-accent {
+        background-color: coral;
+    }
+}
+.filters {
+    text-align: center;
+    margin: 10px 0 20px;
+}
+.add-edit-modal {
+    text-align: center;
+    padding: 10px;
+}
+.posts-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    .post-item {
+        width: 50%;
+    }
+}
+.post {
+    overflow: hidden;
+    position: relative;
+    height: 360px;
+    .post-background {
+        background-position: center center;
+        background-size: cover;
+        box-shadow: 0 0 0 1000px rgba(0,0,0,.2) inset;
+        transition: all 350ms ease-in-out;
+        height: 100%;
+    
+        .post-content {
+            //position: absolute;
+            bottom: 0;
+            padding: 30px;
+            width: 100%;
+            color: #fff;
+            h3 {
+                position: relative;
+                font-size: 40px;
+                font-weight: 600;
+                letter-spacing: 0;
+                line-height: 42px;
+                margin-bottom: 20px;
+            }
+            .count {
+                font-style: italic;
+                font-size: 1.6rem;
+                padding-bottom: 10px;
+                padding-right: 10px;
+            }
+            .description {
+                font-size: 16px;
+                line-height: 22px;
+                width: 75%;
+                padding-bottom: 20px;
+            }
+            .postinfo {
+                font-family: Roboto,"Helvetica Neue",sans-serif;
+                font-size: 1.25rem;
+                letter-spacing: 2.5px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .post-actions {
+        position: absolute;
+        right: 20px;
+        bottom: 30px;
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+    }
+    
+}
+.post-detail {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    background-color: rgba(128,128,128,.1);
+    .body {
+        width: 80%;
+    }
+    .hero-banner {
+        min-height: 540px;
+        width: 100%;
+        padding: 40px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        box-shadow: 0 0 0 1000px rgba(0,0,0,.4) inset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+        position: relative;
+        .mat-stroked-button {
+            position: absolute;
+            font-size: 1.6rem;
+            top: 20px;
+            left: 10px;
+        }
+        .title {
+            color: #fff;
+            font-size: 6.4rem;
+        }
+    }
+    .comments-container {
+        width: 600px;
+        margin: 0 auto;
+        .comments-title {
+            font-size: 2.5rem;
+        }
+        .comment-item {
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            background-color: #fff;
+            box-shadow: 0 1px 4px rgba(0,0,0,.04);
+            border: 1px solid rgba(0,0,0,.09);
+            .comment-item-content {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px){
+    .mat-fab {
+        top: 200px;
+        right: 15px;
+    }
+}

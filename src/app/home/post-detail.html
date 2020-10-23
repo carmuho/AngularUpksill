@@ -1,0 +1,39 @@
+<div class="post-detail">
+    <div class="hero-banner" style="background-image: url('https://source.unsplash.com/weekly?nature');">
+        <a (click)='onBack()' class="fa fa-chevron-left">View Post</a>
+        <h2 class="title">{{post.title}}</h2>
+    </div>
+    <div class="body">
+        <p class="description">
+            {{post.description}}
+        </p>
+    </div>
+    <div class="comments-container">
+        <div class="comments-title">
+            Comments
+        </div>
+        
+        <div class="comment-item" *ngFor="let comment of post.comments">
+            <div class=icon>
+                <i class="material-icons">account_circle</i>
+            </div>
+            <div class="comment-item-content">
+                <div class="author">{{comment.author}}</div>
+                <div class="comment">
+                    {{comment.comment}}
+                </div>
+            </div>
+
+        </div>
+        
+        
+            <mat-form-field appearance="standard">
+                <mat-label>Write a comment</mat-label>
+                <input matInput type="text" [(ngModel)]='commentario'>
+          
+              </mat-form-field>
+              <button (click)="onAddComment()"  mat-flat-button class="mat-flat-button mat-primary">
+                  Add
+              </button>
+    </div>
+</div>

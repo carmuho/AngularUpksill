@@ -1,0 +1,73 @@
+[
+  {
+    "postId":1,
+    "title": "The waves are high & beautiful",
+    "description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella. Lorem ipsum dolor sit amet enatis sociosqu egestas sociis nibh. Ornare hendrerit fringilla interdum ridiculus consequat euismod condimentum magna.          Tortor sollicitudin pharetra mattis fames fusce placerat. Aenean dignissim consequat posuere quam laoreet in luctus mus, orci mattis sapien ullamcorper ad dictum massa quisque parturient, lacus inceptos et ut nulla condimentum eget.",
+    "category": "Travel",
+    "image": "https://source.unsplash.com/weekly?nature",
+    "comments":[{
+      "author": "string",
+      "comment": "string"
+      },
+      {
+        "author": "string",
+        "comment": "string"
+      }
+    ]
+  },
+  {
+    "postId":2,
+    "title": "Five Hundred Twenty",
+    "description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella. Lorem ipsum dolor sit amet enatis sociosqu egestas sociis nibh. Ornare hendrerit fringilla interdum ridiculus consequat euismod condimentum magna.          Tortor sollicitudin pharetra mattis fames fusce placerat. Aenean dignissim consequat posuere quam laoreet in luctus mus, orci mattis sapien ullamcorper ad dictum massa quisque parturient, lacus inceptos et ut nulla condimentum eget.",
+    "category": "Travel",
+    "image": "https://source.unsplash.com/collection/540518/likes/",
+    "comments":[{
+      "author": "string",
+      "comment": "string"
+    }]
+  },
+  {
+    "postId":3,
+    "title": "At the beach in winter",
+    "description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella. Lorem ipsum dolor sit amet enatis sociosqu egestas sociis nibh. Ornare hendrerit fringilla interdum ridiculus consequat euismod condimentum magna.          Tortor sollicitudin pharetra mattis fames fusce placerat. Aenean dignissim consequat posuere quam laoreet in luctus mus, orci mattis sapien ullamcorper ad dictum massa quisque parturient, lacus inceptos et ut nulla condimentum eget.",
+    "category": "LifeStyle",
+    "image": "https://source.unsplash.com/weekly?beach",
+    "comments":[{
+      "author": "string",
+      "comment": "string"
+    }]
+  },
+  {
+    "postId":4,
+    "title": "The Edge of Nothing Lake",
+    "description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella. Lorem ipsum dolor sit amet enatis sociosqu egestas sociis nibh. Ornare hendrerit fringilla interdum ridiculus consequat euismod condimentum magna.          Tortor sollicitudin pharetra mattis fames fusce placerat. Aenean dignissim consequat posuere quam laoreet in luctus mus, orci mattis sapien ullamcorper ad dictum massa quisque parturient, lacus inceptos et ut nulla condimentum eget.",
+    "category": "Business",
+    "image": "https://source.unsplash.com/random",
+    "comments":[{
+      "author": "string",
+      "comment": "string"
+    }]
+  },
+  {
+    "postId":5,
+    "title": "The best recipes",
+    "description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella. Lorem ipsum dolor sit amet enatis sociosqu egestas sociis nibh. Ornare hendrerit fringilla interdum ridiculus consequat euismod condimentum magna.          Tortor sollicitudin pharetra mattis fames fusce placerat. Aenean dignissim consequat posuere quam laoreet in luctus mus, orci mattis sapien ullamcorper ad dictum massa quisque parturient, lacus inceptos et ut nulla condimentum eget.",
+    "category": "Food",
+    "image": "https://source.unsplash.com/random",
+    "comments":[{
+      "author": "string",
+      "comment": "string"
+    }]
+  },
+  {
+    "postId":6,
+    "title": "Best Place to Work",
+    "description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella. Lorem ipsum dolor sit amet enatis sociosqu egestas sociis nibh. Ornare hendrerit fringilla interdum ridiculus consequat euismod condimentum magna.          Tortor sollicitudin pharetra mattis fames fusce placerat. Aenean dignissim consequat posuere quam laoreet in luctus mus, orci mattis sapien ullamcorper ad dictum massa quisque parturient, lacus inceptos et ut nulla condimentum eget.",
+    "category": "Work",
+    "image": "https://source.unsplash.com/random",
+    "comments":[{
+      "author": "string",
+      "comment": "string"
+    }]
+  }
+]
